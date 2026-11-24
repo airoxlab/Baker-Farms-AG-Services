@@ -217,47 +217,47 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
   <symbol id="i-msg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
 </svg>
 
-<header>
+<header data-section="Header">
   <div class="wrap nav">
-    <a class="brand" href="#top" aria-label="Baker Farms and AG Services, home">
+    <a class="brand" href="#top" aria-label="Baker Farms and AG Services, home" data-track="Header · Logo">
       <span class="mono" aria-hidden="true">BF</span>
       <span><b>Baker Farms</b><small>&amp; AG Services LLC</small></span>
     </a>
     <nav class="links" aria-label="Sections">
-      <a href="#what">What We Do</a>
-      <a href="#job">Request</a>
-      <a href="#hours">Hours</a>
-      <a href="#faq">FAQ</a>
+      <a href="#what" data-track="Header · What We Do">What We Do</a>
+      <a href="#job" data-track="Header · Request">Request</a>
+      <a href="#hours" data-track="Header · Hours">Hours</a>
+      <a href="#faq" data-track="Header · FAQ">FAQ</a>
     </nav>
-    <a class="btn btn-wheat" href="tel:+19375645733"><svg><use href="#i-phone"/></svg><span>(937) 564-5733</span></a>
+    <a class="btn btn-wheat" href="tel:+19375645733" data-track="Header · (937) 564-5733"><svg><use href="#i-phone"/></svg><span>(937) 564-5733</span></a>
   </div>
 </header>
 
 <main id="top">
-  <section class="hero" aria-label="Welcome">
+  <section class="hero" aria-label="Welcome" data-section="Hero">
     <img src="img/hero-baler.jpg" alt="Tractor pulling a round baler through a hay field at sunset" fetchpriority="high">
     <div class="wrap">
       <span class="eyebrow">Farm shop · Ag services · Ohio</span>
       <h1>Baker Farms <em>&amp;</em> AG Services</h1>
       <p>We're a working Ohio farm with a farm shop and agricultural services. Call or text to ask what's in stock or to talk through a job. Open Monday through Saturday, 8 AM to 8 PM.</p>
       <div class="ctas">
-        <a class="btn btn-wheat" href="tel:+19375645733"><svg><use href="#i-phone"/></svg>Call (937) 564-5733</a>
-        <a class="btn btn-line" href="#job"><svg><use href="#i-msg"/></svg>Request service</a>
+        <a class="btn btn-wheat" href="tel:+19375645733" data-track="Hero · Call (937) 564-5733"><svg><use href="#i-phone"/></svg>Call (937) 564-5733</a>
+        <a class="btn btn-line" href="#job" data-track="Hero · Request service"><svg><use href="#i-msg"/></svg>Request service</a>
       </div>
       <div class="status" id="status" role="status"><span class="dot"></span><span id="statusText">Open Mon to Sat, 8 AM to 8 PM</span></div>
     </div>
   </section>
 
-  <div class="strip">
+  <div class="strip" data-section="Info strip">
     <ul class="wrap">
       <li><b>Mon to Sat</b><span>8:00 AM to 8:00 PM</span></li>
       <li><b>Sunday</b><span>Closed</span></li>
-      <li><a href="tel:+19375645733"><b>(937) 564-5733</b><span>Call or text</span></a></li>
+      <li><a href="tel:+19375645733" data-track="Info strip · (937) 564-5733 Call or text"><b>(937) 564-5733</b><span>Call or text</span></a></li>
       <li><b>Farm &amp; Ag LLC</b><span>Shop + field services</span></li>
     </ul>
   </div>
 
-  <section class="sec" id="what">
+  <section class="sec" id="what" data-section="What we do">
     <div class="wrap">
       <div class="sec-head">
         <span class="eyebrow">What we do</span>
@@ -276,7 +276,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
               <li>Open Monday to Saturday, 8 AM to 8 PM</li>
             </ul>
             <div class="ctas">
-              <a class="btn btn-steel" href="sms:+19375645733" data-sms="Hi Baker Farms, what do you have in the farm shop right now?"><svg><use href="#i-msg"/></svg>Ask what's in stock</a>
+              <a class="btn btn-steel" href="sms:+19375645733" data-sms="Hi Baker Farms, what do you have in the farm shop right now?" data-track="What we do · Ask what&#x27;s in stock"><svg><use href="#i-msg"/></svg>Ask what's in stock</a>
             </div>
           </div>
         </article>
@@ -291,7 +291,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
               <li>Local and easy to reach, six days a week</li>
             </ul>
             <div class="ctas">
-              <a class="btn btn-steel" href="#job"><svg><use href="#i-msg"/></svg>Request a job</a>
+              <a class="btn btn-steel" href="#job" data-track="What we do · Request a job"><svg><use href="#i-msg"/></svg>Request a job</a>
             </div>
           </div>
         </article>
@@ -306,7 +306,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
     </div>
   </section>
 
-  <section class="sec job" id="job">
+  <section class="sec job" id="job" data-section="Request">
     <div class="wrap job-box">
       <div>
         <span class="eyebrow">Request</span>
@@ -314,9 +314,9 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
         <p>Fill in what you can and we'll open your phone's messages with it all written out. Nothing is sent until you press send.</p>
         <p>The more detail you give us (acres, location, timing), the faster we can give you an answer.</p>
         <p>Rather talk it through?</p>
-        <a class="big-tel" href="tel:+19375645733">(937) 564-5733</a>
+        <a class="big-tel" href="tel:+19375645733" data-track="Request · (937) 564-5733">(937) 564-5733</a>
       </div>
-      <form id="jobForm" onsubmit="return false">
+      <form id="jobForm" onsubmit="return false" name="Job request">
         <fieldset>
           <legend>I need</legend>
           <div class="chips">
@@ -338,22 +338,22 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
         <span class="l" style="margin-top:6px">Your text will read:</span>
         <div class="preview" id="preview" aria-live="polite"></div>
         <div class="form-ctas">
-          <a class="btn btn-steel" id="sendText" href="sms:+19375645733"><svg><use href="#i-msg"/></svg>Open in messages</a>
-          <a class="btn btn-line" href="tel:+19375645733"><svg><use href="#i-phone"/></svg>Call instead</a>
+          <a class="btn btn-steel" id="sendText" href="sms:+19375645733" data-track="Request · Open in messages"><svg><use href="#i-msg"/></svg>Open in messages</a>
+          <a class="btn btn-line" href="tel:+19375645733" data-track="Request · Call instead"><svg><use href="#i-phone"/></svg>Call instead</a>
         </div>
       </form>
     </div>
   </section>
 
-  <section class="sec" id="hours">
+  <section class="sec" id="hours" data-section="Hours">
     <div class="wrap hours-wrap">
       <div>
         <span class="eyebrow">Hours</span>
         <h2>Six days a week.</h2>
         <p>We're open Monday through Saturday from 8 AM to 8 PM and closed on Sunday. Busy seasons can keep us in the field, so if we miss your call, leave a message or send a text and we'll get back to you.</p>
         <div class="ctas">
-          <a class="btn btn-steel" href="tel:+19375645733"><svg><use href="#i-phone"/></svg>Call now</a>
-          <a class="btn btn-line" href="sms:+19375645733"><svg><use href="#i-msg"/></svg>Send a text</a>
+          <a class="btn btn-steel" href="tel:+19375645733" data-track="Hours · Call now"><svg><use href="#i-phone"/></svg>Call now</a>
+          <a class="btn btn-line" href="sms:+19375645733" data-track="Hours · Send a text"><svg><use href="#i-msg"/></svg>Send a text</a>
         </div>
       </div>
       <div class="week">
@@ -372,7 +372,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
     </div>
   </section>
 
-  <section class="sec" id="how" style="padding-top:0">
+  <section class="sec" id="how" style="padding-top:0" data-section="How it works">
     <div class="wrap">
       <div class="sec-head">
         <span class="eyebrow">How it works</span>
@@ -386,7 +386,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
     </div>
   </section>
 
-  <section class="band" aria-label="Ohio fields">
+  <section class="band" aria-label="Ohio fields" data-section="Photo band">
     <img src="img/field-sunset.jpg" alt="" loading="lazy">
     <div class="wrap">
       <h2>Ohio ground. Ohio work.</h2>
@@ -394,7 +394,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
     </div>
   </section>
 
-  <section class="sec" id="faq">
+  <section class="sec" id="faq" data-section="FAQ">
     <div class="wrap faq-grid">
       <div>
         <span class="eyebrow">Questions</span>
@@ -404,27 +404,27 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
       <div>
         <details open><summary>What are your hours?</summary><p>Monday through Saturday, 8:00 AM to 8:00 PM. We're closed on Sunday. Holiday hours may differ, so call ahead around holidays.</p></details>
         <details><summary>Where are you located?</summary><p>We're a local Ohio farm in the 937 area. Call or text and we'll give you directions for a farm shop pickup, or talk through where your job is.</p></details>
-        <details><summary>How do I request ag services?</summary><p>Use the <a href="#job">request form</a> above to send a text with your job details, or just call. Let us know the type of work, the acreage, the location and your timing.</p></details>
+        <details><summary>How do I request ag services?</summary><p>Use the <a href="#job" data-track="FAQ · request form">request form</a> above to send a text with your job details, or just call. Let us know the type of work, the acreage, the location and your timing.</p></details>
         <details><summary>What does the farm shop carry?</summary><p>It changes with the season. Call or text and we'll tell you what's available right now.</p></details>
         <details><summary>Is texting okay?</summary><p>Yes. Texting (937) 564-5733 works great, especially when we're out in the field. Include your name so we know who's asking.</p></details>
       </div>
     </div>
   </section>
 
-  <section class="contact" id="contact" aria-label="Contact">
+  <section class="contact" id="contact" aria-label="Contact" data-section="Contact">
     <div class="wrap">
       <span class="eyebrow">Get in touch</span>
       <h2>Let's get to work.</h2>
-      <a class="tel" href="tel:+19375645733">(937) 564-5733</a>
+      <a class="tel" href="tel:+19375645733" data-track="Contact · (937) 564-5733">(937) 564-5733</a>
       <div class="ctas">
-        <a class="btn btn-steel" href="tel:+19375645733"><svg><use href="#i-phone"/></svg>Call now</a>
-        <a class="btn btn-line" href="sms:+19375645733"><svg><use href="#i-msg"/></svg>Send a text</a>
+        <a class="btn btn-steel" href="tel:+19375645733" data-track="Contact · Call now"><svg><use href="#i-phone"/></svg>Call now</a>
+        <a class="btn btn-line" href="sms:+19375645733" data-track="Contact · Send a text"><svg><use href="#i-msg"/></svg>Send a text</a>
       </div>
     </div>
   </section>
 </main>
 
-<footer>
+<footer data-section="Footer">
   <div class="wrap">
     <div>
       <b>Baker Farms &amp; AG Services LLC</b>
@@ -435,7 +435,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
       <p>Sunday · Closed</p>
     </div>
     <div>
-      <p><a href="tel:+19375645733">(937) 564-5733</a></p>
+      <p><a href="tel:+19375645733" data-track="Footer · (937) 564-5733">(937) 564-5733</a></p>
       <p>Call or text</p>
     </div>
     <p class="fine">&copy; <span id="yr">2026</span> Baker Farms &amp; AG Services LLC. Photos are representative stock photography from Unsplash, not pictures of Baker Farms &amp; AG Services.</p>
@@ -481,6 +481,7 @@ footer .fine{grid-column:1/-1;border-top:1px solid #33393d;padding-top:20px;font
   var y = document.getElementById('yr'); if (y) y.textContent = new Date().getFullYear();
 })();
 </script>
+<script>/* sendra-extra */(function(){function t(n){try{if(window.sendraTrack)window.sendraTrack(n)}catch(e){}}document.addEventListener('click',function(e){var s=e.target.closest&&e.target.closest('summary');if(s){var d=s.parentElement;if(d&&!d.open)t('FAQ opened: '+s.textContent.replace(/\s+/g,' ').trim())}},true);document.addEventListener('change',function(e){var i=e.target;if(i&&i.matches&&i.matches('.chips input')){var l=document.querySelector('label[for="'+i.id+'"]');t('Picked: '+(l?l.textContent.trim():i.value))}});document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('#sendText');if(b){var c=document.querySelector('.chips input:checked'),l=c&&document.querySelector('label[for="'+c.id+'"]');t('Text builder opened'+(l?': '+l.textContent.trim():''))}},true);})();</script>
 <script src="https://smb.airoxlab.com/api/t/script" defer></script>
 </body>
 </html>
